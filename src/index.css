@@ -37,6 +37,9 @@
     .dark {
         @apply bg-stone-600
     }
+    .link-style {
+        @apply relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-100 hover:bg-blue-100
+    }
 
 
 }
