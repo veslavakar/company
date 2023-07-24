@@ -11,7 +11,7 @@ const Pagination = (props: PaginationProps) => {
         <ul className="flex justify-center mt-2">
             {pages.map(page =>
                 <li key={"page_" + page}>
-                    <button className={"link-style" + (page === currentPage?" bg-blue-400":"")} onClick={()=>onPageChange(page)}>
+                    <button className={"link-style" + (page === currentPage?" active":"")} onClick={()=>onPageChange(page)}>
                         {page}
                     </button>
                 </li>)}

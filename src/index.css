@@ -40,6 +40,15 @@
     .link-style {
         @apply relative block rounded bg-transparent px-3 py-1.5 text-sm text-neutral-600 transition-all duration-100 hover:bg-blue-100
     }
+    .ul-list {
+        @apply w-96 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg my-10 mx-5
+    }
+    .li-list {
+        @apply w-full px-4 py-2 border-b border-gray-200
+    }
 
+    .active {
+        @apply bg-blue-400
+    }
 
 }

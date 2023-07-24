@@ -60,3 +60,18 @@ export type PaginationProps = {
     onPageChange: (pageIndex: number) => void,
     currentPage: number
 }
+
+export type Professions1 = {
+        _id: string,
+        name: string
+}
+
+export type Professions = Record<string, Professions1>
+
+export type GroupListProps = {
+    items: Professions,
+    valueProperty?: string,
+    contentProperty?: string,
+    onItemSelect: (params: Professions1) => void,
+    selectedItem: Professions1
+}
